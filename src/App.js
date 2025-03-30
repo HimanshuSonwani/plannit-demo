@@ -14,7 +14,7 @@ function App() {
 /> */}
 
       {/* </header> */}
-      <header className="flex justify-center items-center px-20 py-5 bg-gray-800">
+      <header className="flex justify-center items-center px-20 py-5 bg-gray-900">
   <img
     src={`${process.env.PUBLIC_URL}/logos/plannit-logo-red.png`}
     alt="Plannit Logo"
