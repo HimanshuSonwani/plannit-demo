@@ -6,14 +6,22 @@ function App() {
   return (
     <main className="min-h-screen bg-gray-900 text-white transition-colors duration-300">
       {/* Header */}
-      <header className="flex justify-between items-center px-20 py-5 bg-black">
+      {/* <header className="flex justify-between items-center px-20 py-5 bg-gray-800">
       <img
   src={`${process.env.PUBLIC_URL}/logos/plannit-logo-red.png`}
   alt="Plannit Logo"
   className="h-10 sm:h-12"
-/>
+/> */}
 
-      </header>
+      {/* </header> */}
+      <header className="flex justify-center items-center px-20 py-5 bg-gray-800">
+  <img
+    src={`${process.env.PUBLIC_URL}/logos/plannit-logo-red.png`}
+    alt="Plannit Logo"
+    className="h-10 sm:h-12"
+  />
+</header>
+
 
       {/* Hero Section */}
       <section className="bg-gray-800 py-24 text-center">
@@ -32,6 +40,8 @@ function App() {
           />
         </h2>
         <p className="text-lg mb-8">EVERY WEDNESDAY</p>
+        <button className="px-8 py-3 rounded-full bg-blue-800 text-gray-1000 font-semibold">BOOK YOUR SEAT HERE</button>
+
       </section>
 
       {/* Steps Section */}
@@ -70,7 +80,7 @@ function App() {
 
 
       {/* CTA Section */}
-      <section className="py-16 bg-red-600 text-center">
+      <section className="py-16 bg-gray-600 text-center">
         <h2 className="text-4xl font-bold">Hurry Up!<br/>Connect With Like-Minded Strangers Today!</h2>
         <p className="mt-4">Next meetup on <strong>19th March</strong></p>
       </section>
