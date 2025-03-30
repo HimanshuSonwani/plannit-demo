@@ -13,7 +13,6 @@ function App() {
   className="h-10 sm:h-12"
 />
 
-        <button className="bg-red-500 px-6 py-2 rounded-full font-semibold">BOOK YOUR SEAT</button>
       </header>
 
       {/* Hero Section */}
@@ -33,7 +32,6 @@ function App() {
           />
         </h2>
         <p className="text-lg mb-8">EVERY WEDNESDAY</p>
-        <button className="px-8 py-3 rounded-full bg-white text-gray-800 font-semibold">BOOK YOUR SEAT HERE</button>
       </section>
 
       {/* Steps Section */}
@@ -75,7 +73,6 @@ function App() {
       <section className="py-16 bg-red-600 text-center">
         <h2 className="text-4xl font-bold">Hurry Up!<br/>Connect With Like-Minded Strangers Today!</h2>
         <p className="mt-4">Next meetup on <strong>19th March</strong></p>
-        <button className="mt-6 px-6 py-3 rounded-full bg-white text-red-600 font-semibold">BOOK YOUR SEAT HERE</button>
       </section>
 
       {/* Footer */}
